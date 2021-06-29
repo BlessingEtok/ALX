@@ -4,19 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Edi'Website</title>
-        <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+        <!-- <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet"> -->
         <link href="styles.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1> My Mission</h1>
-        <p>This is my first web page ,this is so amazing and nerve wrecking at the same time ,but i would not let it stop my ultimate mission which is using software enigineering skills to solve problems in my community.</p>
-        <h2> Oppurtunity</h2>
-        <p>ALX has given me the oppurtunity to reflect and also set personal goals as to where i want to be in future.<p>
-        <h3>My experience</h3>
-        <p>My experience thus far has been awesome , i didnt think i would have the courage to carry out each challenge that was given.</p>
-        <p>Thank you ALX for this oppurtunity !</p>
-        <p>
+        <div class="section" id="header">
+            <div class="wrapper">
+                <h1>Blessing Etok</h1>
+                <h2>Aspiring Software Engineer</h2>
+            </div>
+        </div>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do something, positive of course. It&#39;s better than doing nothing! 😉 <br>Don&#39;t you think?<a href="https://twitter.com/hashtag/CareerLaunch?src=hash&amp;ref_src=twsrc%5Etfw">#CareerLaunch</a> <a href="https://twitter.com/hashtag/CareersInAfrica?src=hash&amp;ref_src=twsrc%5Etfw">#CareersInAfrica</a> <a href="https://twitter.com/hashtag/AfricaToTheWorld?src=hash&amp;ref_src=twsrc%5Etfw">#AfricaToTheWorld</a> <a href="https://twitter.com/hashtag/Africa?src=hash&amp;ref_src=twsrc%5Etfw">#Africa</a> <a href="https://t.co/yB6ZN7Svuk">pic.twitter.com/yB6ZN7Svuk</a></p>&mdash; ALX (@alx_africa) <a href="https://twitter.com/alx_africa/status/1408349328289185793?ref_src=twsrc%5Etfw">June 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
             Here is a clickable image:
             <a href="https://alx-apply.hbtn.io">
                 <img src="https://alx-apply.hbtn.io/brand_alx/alx-logo.png">
@@ -26,7 +25,8 @@
         <header>
             <ul>
                 <li><a href="tweets.html">link to tweets</a></li>
-                <li><a href="quora.html"> link to quora</a></li>
+                <li><a href="quora.html"> link to quora</a></li><li><a href="nairaland.html"> link to nairaland</a></li>
+
             </ul>
         </header>
             <main>
@@ -52,13 +52,33 @@
                         <img src="https://alx-apply.hbtn.io/brand_alx/alx-logo.png">
                     </article>
                     <aside>
-                        <p> "placeholder to add comment thread later".</p>
+                        <div id="disqus_thread"></div>
                     </aside>
         
             </main>
+            
         <footer>Made by BLESSING ETOK for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.</footer>
 </body>
 
 
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://blogdotghost.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 
 </html>
